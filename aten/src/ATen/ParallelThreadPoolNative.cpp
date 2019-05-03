@@ -1,4 +1,4 @@
-#if AT_PARALLEL_OPENMP
+#if AT_PARALLEL_OPENMP || AT_PARALLEL_NATIVE
 #include <ATen/Parallel.h>
 #include <ATen/PTThreadPool.h>
 
